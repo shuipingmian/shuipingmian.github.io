@@ -3,38 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f3085602-a1d5-447d-b5fa-efa069d2e7fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/e2e/tsconfig.e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/src/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textproject/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allindex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/allindex/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,46 +16,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNAME">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="25">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/favicon.ico">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/runtime.js.map">
-          <provider editor-type-id="sourcemapFileViewerProvider" />
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/styles.js.map">
-          <provider editor-type-id="sourcemapFileViewerProvider" />
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/vendor.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/vendor.js.map">
-          <provider editor-type-id="sourcemapFileViewerProvider" />
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/allindex/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="614" column="47" lean-forward="true" selection-start-line="614" selection-start-column="47" selection-end-line="614" selection-end-column="47" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -98,14 +43,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/allindex/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="width" value="1387" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -114,45 +60,14 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="远程网站测试专用" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="远程网站测试专用" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="myproject" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="远程网站测试专用" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="myproject" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="dist" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="远程网站测试专用" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="myproject" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="远程网站测试专用" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="myproject" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562291151825" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -185,11 +100,12 @@
       <workItem from="1547437030278" duration="2868000" />
       <workItem from="1547445156138" duration="1226000" />
       <workItem from="1547458282697" duration="842000" />
+      <workItem from="1562291113851" duration="42000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10635000" />
+    <option name="totallyTimeSpent" value="10677000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -201,11 +117,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="85" y="25" width="1386" height="788" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31750742" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -216,8 +137,14 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35168195" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24787535" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50073314" side_tool="true" weight="0.3297546" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -243,55 +170,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/src/browserslist">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/myproject/src/app/app.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/myproject/src/app/app.component.css" />
+    <entry file="file://$PROJECT_DIR$/myproject/src/browserslist" />
+    <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/index.html" />
+    <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/runtime.js.map" />
+    <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/styles.js.map" />
+    <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/vendor.js" />
+    <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/vendor.js.map" />
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/runtime.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/styles.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/vendor.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/vendor.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/allindex/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="614" column="47" lean-forward="true" selection-start-line="614" selection-start-column="47" selection-end-line="614" selection-end-column="47" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
