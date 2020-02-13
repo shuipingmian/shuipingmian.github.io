@@ -2,7 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3085602-a1d5-447d-b5fa-efa069d2e7fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/logo-color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/logo-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/app-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/demo.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/demo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/demo.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/demo.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/demo.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/i18n/en-US.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/i18n/pl-PL.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/i18n/tr-TR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/i18n/zh-CN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/i18n/zh-TW.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/bg10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/bg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/bg6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/bg7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/bg8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/bg9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/tmp/img/half-float-bg-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/zorro.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/data-v-data-v-module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/data-v-data-v-module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/delon-delon-module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/delon-delon-module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/exception-exception-module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/exception-exception-module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/extras-extras-module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/extras-extras-module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/polyfills.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pro-pro-module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pro-pro-module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/runtime.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style-style-module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style-style-module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets-widgets-module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets-widgets-module.js.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/allindex/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
+            <state relative-caret-position="6100">
               <caret line="244" column="39" selection-start-line="244" selection-start-column="39" selection-end-line="244" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -37,17 +97,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Documents/WeChat Files/shuipingmian8246/FileStorage/File/2019-07/加解密/CryptEncryptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11275">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="75">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/H5sell/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -63,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1389" />
@@ -75,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -113,7 +179,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,11 +224,12 @@
       <workItem from="1547458282697" duration="842000" />
       <workItem from="1562291113851" duration="42000" />
       <workItem from="1562376103463" duration="1605000" />
+      <workItem from="1581584336307" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12282000" />
+    <option name="totallyTimeSpent" value="12881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -177,7 +243,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23458445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -194,7 +260,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24787535" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24787535" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50073314" side_tool="true" weight="0.3297546" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -238,6 +304,9 @@
     <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/styles.js.map" />
     <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/vendor.js" />
     <entry file="file://$PROJECT_DIR$/myproject/dist/myproject/vendor.js.map" />
+    <entry file="file://$PROJECT_DIR$/allindex/img/img1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -245,12 +314,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/allindex/img/img1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/allindex/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="6100">
           <caret line="244" column="39" selection-start-line="244" selection-start-column="39" selection-end-line="244" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -261,14 +327,17 @@
     </entry>
     <entry file="file://$USER_HOME$/Documents/WeChat Files/shuipingmian8246/FileStorage/File/2019-07/加解密/CryptEncryptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11275">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H5sell/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
