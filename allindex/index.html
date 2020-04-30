@@ -1,209 +1,241 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
- 
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 
-   <!-- <link rel="stylesheet" href="css/reset.css" />
+
+  <!-- <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/timeline.css">-->
-   <!-- <script src="js/timeline.js"></script>-->
-    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+  <!-- <script src="js/timeline.js"></script>-->
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
 
-    <title>饶博翰个人简历</title>
-
-
-
-    <!--插件css-->
-
-    <meta name="description" content="Blueprint: Vertical Timeline" />
-
-    <meta name="keywords" content="timeline, vertical, layout, style, component, web development, template, responsive" />
-
-    <meta name="author" content="Codrops" />
-
-    <link rel="shortcut icon" href="../favicon.ico">
-
-    <link rel="stylesheet" type="text/css" href="css/default.css" />
-
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
-
-    <script src="js/modernizr.custom.js"></script>
+  <title>饶博翰个人简历</title>
 
 
-    <!--插件css-->
 
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <!--插件css-->
 
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+  <meta name="description" content="Blueprint: Vertical Timeline" />
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  <meta name="keywords" content="timeline, vertical, layout, style, component, web development, template, responsive" />
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+  <meta name="author" content="Codrops" />
+
+  <link rel="shortcut icon" href="../favicon.ico">
+
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+  <script src="js/modernizr.custom.js"></script>
+
+
+  <!--插件css-->
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="starter-template.css" rel="stylesheet">
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
     <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 
-    <style>
-        html,
-        body {
-            background-color: #f5f5f5;
-			    -webkit-overflow-scrolling: touch;
-            overflow-scrolling: touch;
-            overflow:hidden;overflow-y:auto;
-        }
+  <style>
+    html,
+    body {
+      background-color: #f5f5f5;
+      -webkit-overflow-scrolling: touch;
+      overflow-scrolling: touch;
+      overflow: hidden;
+      overflow-y: auto;
+    }
 
 
 
-        .decimg > a > img{
-             max-width: 100%;
-        }
-        .page {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            box-shadow: 1px 1px 8px rgba(0, 0, 0, .15);
-            background-color: #ffffff;
-        }
-        .page1{
-            max-width: 92%;
-            padding: 0px ;
-            margin: 0 auto;
-        }
-        .c123{
-            max-width: 100%;
-        }
-        .page1 div{
-            padding: 12px;
-            font-size: 16px;
-        }
+    .decimg>a>img {
+      max-width: 100%;
+    }
 
-        h3 {
-            margin-left: -20px;
-            padding-left: 15px;
-            border-left: 5px solid #F8B62D;
-        }
+    .page {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      box-shadow: 1px 1px 8px rgba(0, 0, 0, .15);
+      background-color: #ffffff;
+    }
 
-        .border {
-            position: relative;
-        }
+    .page1 {
+      max-width: 92%;
+      padding: 0px;
+      margin: 0 auto;
+    }
 
-        .border:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -2px;
-            width: 2px;
-            height: 100%;
-            background: #ddd;
-            border-left: 2px solid #ddd !important;
-        }
-     .qubiansjx{
-         height: 100px; float: right;
-         position: absolute;
-         top: -20px;
-         left: 880px;
-         width: 300px;
-         display:inline-block;
-         border-style: solid;
-         border-width: 229px 0px 8px 199px;
-         -webkit-clip-path: polygon(0 0%, 147% 0, 74% 96%);
-         border-color: #334E6C transparent transparent transparent;
-         overflow:hidden;
-     }
-     .ser3{
-         margin-top: 20px;
-         display: block;
-         font-weight: 700;
-         text-transform: uppercase;
-         color: #0f0f0f;
-         font-size: 14px;
+    .c123 {
+      max-width: 100%;
+    }
 
+    .page1 div {
+      padding: 12px;
+      font-size: 16px;
+    }
 
-     }
+    h3 {
+      margin-left: -20px;
+      padding-left: 15px;
+      border-left: 5px solid #F8B62D;
+    }
 
+    .border {
+      position: relative;
+    }
 
+    .border:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -2px;
+      width: 2px;
+      height: 100%;
+      background: #ddd;
+      border-left: 2px solid #ddd !important;
+    }
 
-   .bgcol >div{
-       background-color: #f2f2f2;border:2px solid #dddddd;border-radius:6px;
-       padding: 9px;
-   }
+    .qubiansjx {
+      height: 100px;
+      float: right;
+      position: absolute;
+      top: -20px;
+      left: 880px;
+      width: 300px;
+      display: inline-block;
+      border-style: solid;
+      border-width: 229px 0px 8px 199px;
+      -webkit-clip-path: polygon(0 0%, 147% 0, 74% 96%);
+      border-color: #334E6C transparent transparent transparent;
+      overflow: hidden;
+    }
 
-        .bgcol2{
-            background-color: #f2f2f2;border:2px solid #dddddd;border-radius:6px;
-            padding: 13px;
-        }
-        section a {
-            color: #666;
-        }
+    .ser3 {
+      margin-top: 20px;
+      display: block;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #0f0f0f;
+      font-size: 14px;
 
 
-        section a:hover {
-            color: #333;
-            text-decoration: underline;
-        }
-        .siying{
-            text-indent: 20px;
-            margin-left: 40px;
-            width: 500px;
-            height: 25px;
-            line-height: 25px;
-            position: absolute;
-            left: 300px;
-            color: #787978;
-            top: 30px;
-            max-width: 600px;}
-        .geren{
-         z-index: 1000 ;position: absolute;top: 45px;left: 1000px;color: white;font-weight: bold;font-size: 22px;
-
-        }
-            @media screen and (max-width: 901px){
-                .siying{
-                    opacity: 0;
-                }
-                .qubiansjx{
-                    height: 100px; float: right;
-                    position: absolute;
-                    top: -20px;
-                    left: 196px;
-                    width: 150px;
-                    display:inline-block;
-                    border-style: solid;
-                    border-width: 229px 0px 8px 199px;
-                    -webkit-clip-path: polygon(0 0%, 147% 0, 74% 96%);
-                    border-color: #334E6C transparent transparent transparent;
-                    overflow:hidden;
-                }
-                .geren{
-                    z-index: 1000 ;position: absolute;top: 15px;left: 330px;color: white;font-weight: bold;font-size: 13px;
-                }
-
-            }
-        @media screen and (max-width: 601px){
-             .qubiansjx{
-                 opacity: 0;
-             }
-            .geren{
-                opacity: 0;
-            }
-        }
+    }
 
 
 
-    </style>
+    .bgcol>div {
+      background-color: #f2f2f2;
+      border: 2px solid #dddddd;
+      border-radius: 6px;
+      padding: 9px;
+    }
+
+    .bgcol2 {
+      background-color: #f2f2f2;
+      border: 2px solid #dddddd;
+      border-radius: 6px;
+      padding: 13px;
+    }
+
+    section a {
+      color: #666;
+    }
+
+
+    section a:hover {
+      color: #333;
+      text-decoration: underline;
+    }
+
+    .siying {
+      text-indent: 20px;
+      margin-left: 40px;
+      width: 500px;
+      height: 25px;
+      line-height: 25px;
+      position: absolute;
+      left: 300px;
+      color: #787978;
+      top: 30px;
+      max-width: 600px;
+    }
+
+    .geren {
+      z-index: 1000;
+      position: absolute;
+      top: 45px;
+      left: 1000px;
+      color: white;
+      font-weight: bold;
+      font-size: 22px;
+
+    }
+
+    @media screen and (max-width: 901px) {
+      .siying {
+        opacity: 0;
+      }
+
+      .qubiansjx {
+        height: 100px;
+        float: right;
+        position: absolute;
+        top: -20px;
+        left: 196px;
+        width: 150px;
+        display: inline-block;
+        border-style: solid;
+        border-width: 229px 0px 8px 199px;
+        -webkit-clip-path: polygon(0 0%, 147% 0, 74% 96%);
+        border-color: #334E6C transparent transparent transparent;
+        overflow: hidden;
+      }
+
+      .geren {
+        z-index: 1000;
+        position: absolute;
+        top: 15px;
+        left: 330px;
+        color: white;
+        font-weight: bold;
+        font-size: 13px;
+      }
+
+    }
+
+    @media screen and (max-width: 601px) {
+      .qubiansjx {
+        opacity: 0;
+      }
+
+      .geren {
+        opacity: 0;
+      }
+    }
+  </style>
 </head>
 
 
@@ -212,45 +244,47 @@
 <body class="jumbotron">
 
 
-<!--<div class=" text-center" style="margin-bottom:0; margin-top: 10px;">
+  <!--<div class=" text-center" style="margin-bottom:0; margin-top: 10px;">
     <h2>饶博翰简历</h2>
 </div>-->
 
-<nav class="navbar navbar-inverse navbar-fixed-top c34 c123">
+  <nav class="navbar navbar-inverse navbar-fixed-top c34 c123">
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">首页</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse col-lg-12">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">个人简介</a></li>
-                <li><a href="#about">所用技能</a></li>
-                <li><a href="#ui1">展示项目网站</a></li>
-                <li><a href="#contact">个人经历</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">首页</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse col-lg-12">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">个人简介</a></li>
+          <li><a href="#about">所用技能</a></li>
+          <li><a href="#ui1">展示项目网站</a></li>
+          <li><a href="#contact">个人经历</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
     </div>
-</nav>
+  </nav>
 
-<div class="jumbotron">
-<main class="page ">
-    <section style="position: relative" >
+  <div class="jumbotron">
+    <main class="page ">
+      <section style="position: relative">
         <div class="siying">您好，我叫饶博翰，坐标杭州，计算机本科毕业，毕业后一直从事互联网行业，主要做前端开发，也做过运维管理，喜爱前端技术，今后希望能在前端技术行业深入发展
-            目前掌握的技术有HTML+CSS,vue,angular,中台全家桶，在实习的期间是负责angular页面开发修改，正式的工作一年负责浙江的不动产登记系统的页面开发，所用到的技术有angualr+ngzorro+ng-alain
-            ，用过vue写过公司的中台页面管理系统设计，主要擅长PC端管理系统页面的编写。
+          目前掌握的技术有HTML+CSS,vue,angular,中台全家桶，
+          用过vue写过公司的中台页面管理系统设计，主要擅长H5以及PC端管理系统页面的编写。
 
-            <p  class="ser3">喜爱前端，乐于探索自己不会的新技术，执行力，学习力棒棒的!</p>
+          <p class="ser3">喜爱前端，乐于探索自己不会的新技术，执行力，学习力棒棒的!</p>
         </div>
 
-<!--我的照片-->
-        <img src="img/img1.jpg" alt="简历照片" class="img-rounded" style="width: 175px ;height: 300px;margin-bottom: 10px;margin-left: 10px;"
-        >
+        <!--我的照片-->
+        <img src="img/img1.jpg" alt="简历照片" class="img-rounded"
+          style="width: 175px ;height: 300px;margin-bottom: 10px;margin-left: 10px;">
         <p class="geren"> 个人网页简历</p>
         <div class="qubiansjx"></div>
 
@@ -258,145 +292,145 @@
 
 
 
+        <h3 class="dl-horizontal ">联系方式</h3>
+        <div class="row  bgcol">
+          <div class="col-lg-4   ">● 手机：15350014683</div>
+          <div class="col-lg-4  ">● Email：15350014683@163.com</div>
+          <div class="col-lg-4  ">● QQ/微信：875143287/15350014683</div>
+        </div>
+
+      </section>
 
 
-    </section>
-
-
-    <section>
+      <section>
 
         <h3 class="f-s-18 f-w-900 m-b-20">个人信息</h3>
         <div class="boxes default m-b-20">
-            <div class="box bg-gray-lightest p-t-0 p-b-0 ">
-                <div class="row  " >
-                    <div class="col-lg-12">
-                    <div class="col-lg-4 p-b-10 bgcol2">● 饶博翰 | 男 | 1997 | 22岁</div>
-                    <div class="col-lg-4 p-t-10 p-b-10 border bgcol2">● 江西科技学院毕业 | 计算机科学技术 | 统招本科</div>
-                    <div class="col-lg-4 p-t-10 p-b-10 border bgcol2">● 应聘前端开发 | 2 年工作经验</div>
-                    </div>
+          <div class="box bg-gray-lightest p-t-0 p-b-0 ">
+            <div class="row  ">
+              <div class="col-lg-12">
+                <div class="col-lg-4 p-b-10 bgcol2">● 饶博翰 | 男 | 1997 | 22岁</div>
+                <div class="col-lg-4 p-t-10 p-b-10 border bgcol2">● 江西科技学院毕业 | 计算机科学技术 | 统招本科</div>
+                <div class="col-lg-4 p-t-10 p-b-10 border bgcol2">● 应聘前端开发 | 2 年工作经验</div>
+              </div>
 
 
 
 
 
-        <div class="d-flex flex-column mb-3  col-lg-12">
-            <div class="p-2 bgcol2">
-                ● Github：
-                <a href="https://github.com/shuipingmian" target="_blank">https://github.com/shuipingmian</a>
+              <div class="d-flex flex-column mb-3  col-lg-12">
+                <div class="p-2 bgcol2">
+                  ● Github：
+                  <a href="https://github.com/shuipingmian" target="_blank">https://github.com/shuipingmian</a>
+                </div>
+                <div class="box bg-gray-lightest bgcol2">
+                  ● 技术博客：
+                  <a href="https://i.csdn.net/#/uc/profile" target="_blank">https://i.csdn.net/#/uc/profile</a>
+                </div>
+                <div class="box bg-gray-lightest bgcol2">
+                  ● 上线项目网站：
+                  <a href="http://sh.cono.fun:12399/H5/dist/" target="_blank">http://sh.cono.fun:12399/H5/dist/ &nbsp
+                  </a>
+                  <a href="https://www.bigdata-x.com/mapH5/#/policehandling" target="_blank"> &nbsp
+                    https://www.bigdata-x.com/mapH5/#/policehandling </a>
+                </div>
+
+              </div>
             </div>
-            <div class="box bg-gray-lightest bgcol2">
-                ● 技术博客：
-                <a href="https://i.csdn.net/#/uc/profile" target="_blank">https://i.csdn.net/#/uc/profile</a>
-            </div>
-
+          </div>
         </div>
-        </div>
-            </div>
-        </div>
-    </section>
-
-    <h3 class="dl-horizontal ">联系方式</h3>
-    <div class="row  bgcol">
-        <div class="col-lg-4   ">● 手机：15350014683</div>
-        <div class="col-lg-4  ">● Email：15350014683@163.com</div>
-        <div class="col-lg-4  ">● QQ/微信：875143287/15350014683</div>
-    </div>
+      </section>
 
 
-    <section id="about">
+
+
+      <section id="about">
         <h3 class="f-s-18 f-w-900 m-b-20">技术优势</h3>
         <div class="boxes default m-b-20">
-            <div class="box bg-gray-lightest bgcol2 ">
-                ● 熟练使用HTML/HTML5，CSS/SCSS、Javascript等；开发动态，静态网页。
-            </div>
-            <div class="box bg-gray-lightest bgcol2">
-                ● 熟悉vue  angular 框架 阿里开发库ngzorro系列；能使用ng-zorro结合ng-alain 开发完整的angular前端中台系统 使用vue 配合相应的框架开发H5相关的小程序和app  熟悉前后端分离的开发模式。
-            </div>
-            <div class="box bg-gray-lightest bgcol2">
-                ● 了解BootStrap、ng-zorro、ng-alian、Swiper等前端框架，在开发网站的过程中使用框架库进行快速开发 根据UI设计构架网页效果。
-            </div>
-            <div class="box bg-gray-lightest bgcol2">
-                ● 了解构建工具，包括webpack、angular-cli等；利用构架工具，进行打包至服务器部署更新，用linux语言进行服务器操作，具备相应的文档编写能力。
-            </div>
+          <div class="box bg-gray-lightest bgcol2 ">
+            ● 熟练使用HTML/HTML5，CSS/CSS3、Javascript、 Jquery库、等；开发动态，静态网页，熟悉基本前端语言 HTML5+CSS+js，以及各种框架及其UI组件库如（Ant design系列
+            mint-ui移动系列）完成跨端开发（pc端+H5+微信小程序）。
+          </div>
+          <div class="box bg-gray-lightest bgcol2">
+            ● 熟悉vue angular 主流MVVM框架 及其原理应用。
+          </div>
+          <div class="box bg-gray-lightest bgcol2">
+            ● 熟练使用vue 进行项目的技术选型，参与产品的需求实现以及功能讨论，熟悉以vue基础的代码插件对项目的功能组件，ajax接口请求进行封装，实现前端模块化，组件化，工程化
+            ，文档化，以实现期望的UI设计图的效果,独立开发过crm类型的项目对组件封装，混入应用有特殊心得。
+          </div>
+          <div class="box bg-gray-lightest bgcol2">
+            ● 了解构建工具，包括webpack、angular-cli等；利用构架工具，进行打包至服务器部署更新，用linux语言进行服务器操作，具备相应的文档编写能力。
+          </div>
+          <div class="box bg-gray-lightest bgcol2">
+            ● 了解前端调试技巧，和前端MOCK数据技术，能使用MOCK.JS mock数据进行简单的项目单元测试力。
+          </div>
+          <div class="box bg-gray-lightest bgcol2">
+            ● 了解可视化开发技术，能运用G2 echarts.js 可视化代码库进行数据可视化图表展示
+          </div>
 
         </div>
 
         <!--进度条-->
         <h2>技术熟练度</h2>
         <div style="margin-top: 20px">
-        <div class="progress ">
-            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 93%">
-                HTML+CSS
-                <span class="sr-only">86% Complete (success)</span>
+          <div class="progress ">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100" style="width: 93%">
+              HTML+CSS
+              <span class="sr-only">86% Complete (success)</span>
             </div>
-        </div>
-        <div class="progress ">
-            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 93%">
-                Angular
-                <span class="sr-only">87% Complete</span>
+          </div>
+          <div class="progress ">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100" style="width: 93%">
+              vue
+              <span class="sr-only">87% Complete</span>
             </div>
-        </div>
-        <div class="progress ">
-            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-                JS/JQ
-                <span class="sr-only">90% Complete (warning)</span>
+          </div>
+          <div class="progress ">
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+              aria-valuemax="100" style="width: 84%">
+              JS
+              <span class="sr-only">90% Complete (warning)</span>
             </div>
-        </div>
-        <div class="progress ">
-            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 88%">
-                Vue
-                <span class="sr-only">80% Complete (danger)</span>
+          </div>
+          <div class="progress ">
+            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100" style="width: 88%">
+              angular
+              <span class="sr-only">80% Complete (danger)</span>
             </div>
-        </div>
+          </div>
         </div>
         <!--进度条-->
-    </section>
+      </section>
 
 
 
 
-    <section>
+      <section>
         <h3 class="f-s-18 f-w-900 m-b-20">工作经历 <a class="f-w-100" href="" target="_blank">ResumeSample</a></h3>
-		<div class="boxes default m-b-20 bgcol2 ">
-		    <div class="box bg-gray-lightest">
-		        <b style="font-size: 16px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2019.08-2019.12 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		杭州康晟健康管理咨询有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		            &nbsp;&nbsp;&nbsp;&nbsp;H5前端工程师</b>
-		    </div>
-		    <div class="box bg-gray-lightest">
-		        <p style="margin-top: 20px"><b>工作内容：</b><br>
-		           基于CRM系统接口，进行模板化开发，H5相关的管理系统，主要有医院部署CRM项目，药店CRM项目，根据后端接口，前端进行适配自动生成可编辑页面，项目主要特点，高耦合，低内聚，但其后续的模块可以免开发，低开发状态。前期工作量大，是正常开发的2倍，但后续维护十分便捷，前期需设计合理的目录结构，减少因业务逻辑出现的代码内聚造成的后续影响。</p>                                                                         </p>
-		        <p><b>成果与收获：</b><br>
-		           使用基于vue的框架配合前端的H5框架库uni-app. NuTul开发H5微信小程序，用于公司销售工作中的药品，药店管理。独立开发了前端项目，了解到了完整项目的设计，参与了公司的产品评选和技术选型，由之前的功能模块的开发实现到整体项目的自动化测试，完善。学会了依据产品的原型图去整体设计项目的技术选型，为后面的二期，三期的扩展优化留下空间，运用模板化开发的方式，让接口控制页面的生成，进行敏捷开发。组件化，模块化代码用于更好的维护项目，提升项目的生命周期。
-		
-		        </p>
-		    </div>
-		    <!--<div class="box bg-gray-lightest">
-		        <p class="m-t-0">GHI 项目</p>
-		        <p>我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
-		    </div>
-		    <div class="box bg-gray-lightest">
-		        <p class="m-t-0">其他项目</p>
-		        <p>（每个公司写2~3个核心项目就好了，如果你有非常大量的项目，那么按分类进行合并，每一类选一个典型写出来。其他的一笔带过即可。）</p>
-		    </div>-->
-		</div>
         <div class="boxes default m-b-20 bgcol2 ">
-            <div class="box bg-gray-lightest">
-                <b style="font-size: 16px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2018.07-2019.04 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		浙江臻善科技股份有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
-            </div>
-            <div class="box bg-gray-lightest">
-                <p style="margin-top: 20px"><b>工作内容：</b><br>
-                    1.负责浙江省杰思科不动产登记系统的前端页面开发，同后端人员完成数据联调；<br>
-                    2.负责根据各地不同省市的要求改进前端界面，满足各类客户的需求 <br></p>                                                                         </p>
-                <p><b>成果与收获：</b><br>
-                    使用了angular与ng-zorro 完善了前端系统开发，在运用ng-alain时，对标准angular项目有了深刻的了解,熟练使用路由与组<br>
-                    件构建了公司的前端开发模式库，学会模块化开发并封装开发的页面用于公司团队，提高了前端的开发效率，在工作中去项目
-                    现场进行赶工及时完成了宁波的新需求变更，对集中开发的模式有了了解，重写了angular的前端项目，将angular由5升级到7
-                    ，解决其遇到的兼容问题。
+          <div class="box bg-gray-lightest">
+            <b style="font-size: 16px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2019.08-2019.12
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 杭州康晟健康管理咨询有限公司
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
+          </div>
+          <div class="box bg-gray-lightest">
+            <p style="margin-top: 20px"><b>工作内容：</b><br>
+              1
+              独立负责药店CRM管理系统的开发，负责项目的技术选型，整体设计，和具体开发。该项目是基于vue和uni-app为基础H5项目，插入到钉钉小程序的框架中，用于本公司销售人员的对药店crm管理。封装了大量公共组件，优化了代码结构。建立了代码模版，与详细的文档注释，为后续的维护开发提供了便利。<br>
+              2.负责医院CRM系统的模版化开发，基于vue和uni-app和后端提供的接口进行低代码平台的建设开发，优化了项目的结构，提出了新的定制动态form表单的封装方案，解决了代码耦合性高的关键问题。 <br></p>
+            </p>
+            <p><b>成果与收获：</b><br>
+              使用基于vue的框架配合前端的H5框架库uni-app.
+              NuTul开发H5微信小程序，用于公司销售工作中的药品，药店管理。独立开发了前端项目，了解到了完整项目的设计，参与了公司的产品评选和技术选型，由之前的功能模块的开发实现到整体项目的自动化测试，完善。学会了依据产品的原型图去整体设计项目的技术选型，为后面的二期，三期的扩展优化留下空间，运用模板化开发的方式，让接口控制页面的生成，进行敏捷开发。组件化，模块化代码用于更好的维护项目，提升项目的生命周期。
 
-                </p>
-            </div>
-            <!--<div class="box bg-gray-lightest">
+            </p>
+          </div>
+          <!--<div class="box bg-gray-lightest">
                 <p class="m-t-0">GHI 项目</p>
                 <p>我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
             </div>
@@ -407,66 +441,84 @@
         </div>
 
 
-      <!--  <div class="boxes default m-b-20 bgcol2 ">
-            <div class="box bg-gray-lightest">
-                <b style="font-size: 16px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2017.10-2018.07 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		浙江海源股份有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
-            </div>
-            <div class="box bg-gray-lightest">
-                <p style="margin-top: 20px"><b>工作内容：</b><br>
-                    1.负责大数据平台的前端页面开发与部署，根据客户的意见变更前端页面需求获得更好的用户体验感<br>
-                    2.负责测试大数据系统的稳定性，完整性，运维部署到浙江地理信息中心的虚拟服务器上。 <br></p>                                                                         </p>
-                <p><b>成果与收获：</b><br>
-                    快速解决了许多大数据方面的前端问题，运用csdn，github等开源社区解决了很多项目上的紧急问题。规范了前端语义化代码
-                    ，在出差的过程中能充分听取客户的要求，并及时反馈给项目经理做需求变更决定，前端方面熟悉了原生JS.JQ的网页数据处理
-                    应用模式，运用HTML/H5修改网页，成功完成了项目上线
+        <div class="boxes default m-b-20 bgcol2 ">
+          <div class="box bg-gray-lightest">
+            <b style="font-size: 16px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2018.07-2019.04
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 浙江臻善科技股份有限公司
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
+          </div>
+          <div class="box bg-gray-lightest">
+            <p style="margin-top: 20px"><b>工作内容：</b><br>
+              1.参与杰思科不动产登记系统的开发，该项目基于angular （5.0） 和ng-zorro框架为基础，作为全省项目目的主线模版，优化了代码性能，解决出现的pc兼容性问题 。<br>
+              2.参与全省“一次就好”不动产登记的上线开发，负责宁波和舟山的国土资源局的前端定制化开发。该开发基于主线模版,使用typescript基于angular-cil进行组件开发。负责开发其弹窗模块和公共封装组件模块。
+              <br>
+              2.负责杰思科不动产登记angular
+              5-7的升级重构，ng-zorro的升级重构，基于angular5-7，舍弃rxjs造成了主线业务中无法使用最新的组件，为此提出了项目的新的重构解决方法，对项目的整体样式布局，以及项目结构进行了重构，依照最新标准，引入eslint以及axios作为新的项目标准进行开发，完成了页面骨架的重构。。
+              <br>
+            </p>
+            </p>
+            <p><b>成果与收获：</b><br>
+              完成了项目的上线与开发，配合测试和后端，进行前端的重构整合，优化了项目结构，熟练掌握了基础的css+html语法。快速解决了许多大数据方面的前端问题，运用csdn，github等开源社区解决了很多项目上的紧急问题。规范了前端语义化代码，在出差的过程中能充分听取客户的要求，并及时反馈给项目经理做需求变更决定，
 
-                </p>
-            </div>
+            </p>
+          </div>
 
-        </div> -->
+        </div>
 
-    </section>
+      </section>
 
 
 
-    <section>
+      <section>
         <h3 class="f-s-18 f-w-900 m-b-20">项目经验 <a class="f-w-100" href="" target="_blank">Experience in project
-        </a></h3>
-		<div class="boxes default m-b-20 bgcol2 ">
-		    <div class="box bg-gray-lightest">
-		        <b style="font-size: 16px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2018.07-2019.04 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		杭州康晟健康管理咨询有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		            &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
-		    </div>
-		    <div class="box bg-gray-lightest">
-		        <p class="m-t-0" style="text-align: center;margin-top: 20px">H5药店CRM管理系统开发</p>
-		        <p><b>项目描述：</b>基于CRM系统接口，进行模板化开发，H5相关的管理系统，主要有医院部署CRM项目，药店CRM项目，根据后端接口，前端进行适配自动生成可编辑页面，项目主要特点，高耦合，低内聚，但其后续的模块可以免开发，低开发状态。前期工作量大，是正常开发的2倍，但后续维护十分便捷，前期需设计合理的目录结构，减少因业务逻辑出现的代码内聚造成的后续影响。</p>
-		        <p><b>使用技术：</b>采用前后端分离的方式，vue框架  uni-app框架库  各种功能插件。</p>
-		        <p><b>主要职责: </b>独自负责前端工作的设计，选型，开发，功能测试，bug修改，需求变更修改。</p>
-		        <p><b>工作成果：</b>该项目已交付使用，用于销售部门对药店的管理和公司的拜访查询。用于绩效考核。</p>
-		    </div>
-		    <!--<div class="box bg-gray-lightest">
-		        <p class="m-t-0">GHI 项目</p>
-		        <p>我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
-		    </div>
-		    <div class="box bg-gray-lightest">
-		        <p class="m-t-0">其他项目</p>
-		        <p>（每个公司写2~3个核心项目就好了，如果你有非常大量的项目，那么按分类进行合并，每一类选一个典型写出来。其他的一笔带过即可。）</p>
-		    </div>-->
-		</div>
+          </a></h3>
         <div class="boxes default m-b-20 bgcol2 ">
-            <div class="box bg-gray-lightest">
-                <b style="font-size: 16px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2018.07-2019.04 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		浙江臻善科技股份有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
-            </div>
-            <div class="box bg-gray-lightest">
-                <p class="m-t-0" style="text-align: center;margin-top: 20px">杰思科不动产平台一窗建设项目</p>
-                <p><b>项目描述：</b>浙江省不动产登记以及办理登记系统是为响应政府的“最多跑一次“政策而建立的，用于不动产的登记，在浙江省，河南省不动产登记系统中有很高到占有率。</p>
-                <p><b>使用技术：</b>采用前后端分离的方式，前端采用angular+ng-Zorro +ng-alain，后端使用spring boot 框架，数据库为Mybatis 框架</p>
-                <p><b>主要职责: </b>负责前端工作兼职系统表单的建立，研究angular框架的运用和前端写法优化，提高升级部署工作</p>
-                <p><b>工作成果：</b>该项目已经在宁波、杭州、宁海、舟山等地都已部署上线，河南省全省上线，根据各地不同的情况完成了。</p>
-            </div>
-            <!--<div class="box bg-gray-lightest">
+          <div class="box bg-gray-lightest">
+            <b style="font-size: 16px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2019.08-2019.12
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 杭州康晟健康管理咨询有限公司
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;H5前端工程师</b>
+          </div>
+          <div class="box bg-gray-lightest">
+            <p class="m-t-0" style="text-align: center;margin-top: 20px">H5药店CRM管理系统开发</p>
+            <p>
+              <b>项目描述：</b>基于CRM系统接口，进行模板化开发，H5相关的管理系统，主要有医院部署CRM项目，药店CRM项目，根据后端接口，前端进行适配自动生成可编辑页面，项目主要特点，高耦合，低内聚，但其后续的模块可以免开发，低开发状态。前期工作量大，是正常开发的2倍，但后续维护十分便捷，前期需设计合理的目录结构，减少因业务逻辑出现的代码内聚造成的后续影响
+            </p>
+            <p><b>使用技术：</b>vue框架 uni-app框架库 axios 等插件 </p>
+            <p><b>主要职责: </b>独自负责前端工作的设计，选型，开发，功能测试，bug修改，需求变更修改</p>
+            <p><b>工作成果：</b>该项目已交付使用，用于销售部门对药店的管理和公司的拜访查询。用于绩效考核。</p>
+          </div>
+          <!--<div class="box bg-gray-lightest">
+                  <p class="m-t-0">GHI 项目</p>
+                  <p>我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
+              </div>
+              <div class="box bg-gray-lightest">
+                  <p class="m-t-0">其他项目</p>
+                  <p>（每个公司写2~3个核心项目就好了，如果你有非常大量的项目，那么按分类进行合并，每一类选一个典型写出来。其他的一笔带过即可。）</p>
+              </div>-->
+        </div>
+
+
+
+        <div class="boxes default m-b-20 bgcol2 ">
+          <div class="box bg-gray-lightest">
+            <b style="font-size: 16px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2018.07-2019.04
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 浙江臻善科技股份有限公司
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
+          </div>
+          <div class="box bg-gray-lightest">
+            <p class="m-t-0" style="text-align: center;margin-top: 20px">杰思科不动产平台一窗建设项目</p>
+            <p><b>项目描述：</b>浙江省不动产登记以及办理登记系统是为响应政府的“最多跑一次“政策而建立的，用于不动产的登记，在浙江省，河南省不动产登记系统中有很高到占有率。</p>
+            <p><b>使用技术：</b>采用前后端分离的方式，前端采用angular+ng-Zorro +ng-alain，后端使用spring boot 框架，数据库为Mybatis 框架</p>
+            <p><b>主要职责: </b>负责前端工作兼职系统表单的建立，研究angular框架的运用和前端写法优化，提高升级部署工作</p>
+            <p><b>工作成果：</b>该项目已经在宁波、杭州、宁海、舟山等地都已部署上线，河南省全省上线，根据各地不同的情况完成了。</p>
+          </div>
+          <!--<div class="box bg-gray-lightest">
                 <p class="m-t-0">GHI 项目</p>
                 <p>我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
             </div>
@@ -477,78 +529,105 @@
         </div>
 
 
-     <!--   <div class="boxes default m-b-20 bgcol2 ">
-            <div class="box bg-gray-lightest">
-                <b style="font-size: 16px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2017.09-2018.07 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		浙江海源地理信息有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
-            </div>
-            <div class="box bg-gray-lightest">
-            <div class="box bg-gray-lightest">
-                <p class="m-t-0" style="text-align: center;margin-top: 20px">地理信息局大数据平台</p>
-                <p><b>项目描述：</b>此项目综合性较强，在浙江的三维地图项目开发完成后，需要融合湾滩长系统和三维地图系统，将三维地图到前端显示界面融合在湾滩长系统中。</p>
-                <p><b>使用技术：</b>前端采用的是angular平台的框架，主要用于数据的汇聚，清洗，融合。</p>
-                <p><b>主要职责: </b>1.负责此项目在浙江省所有的三维地图到服务器部署工作，2个系统到融合优化工作。2.现场部署，前端修改，服务器端部署。</p>
-                <p><b>工作成果：</b>项目已经成功验收，项目完成情况和技术支持工作得到客户的高度认可。</p>
-            </div>
+        <div class="boxes default m-b-20 bgcol2 ">
+          <div class="box bg-gray-lightest">
+            <b style="font-size: 16px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2017.09-2018.07
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 浙江海源地理信息有限公司
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
+          </div>
+          <div class="box bg-gray-lightest">
+            <p class="m-t-0" style="text-align: center;margin-top: 20px">地理信息局大数据平台</p>
+            <p><b>项目描述：</b>此项目综合性较强，在浙江的三维地图项目开发完成后，需要融合湾滩长系统和三维地图系统，将三维地图到前端显示界面融合在湾滩长系统中。</p>
+            <p><b>使用技术：</b>前端采用的是angular平台的框架，主要用于数据的汇聚，清洗，融合。</p>
+            <p><b>主要职责: </b>1.负责此项目在浙江省所有的三维地图到服务器部署工作，2个系统到融合优化工作。2.现场部署，前端修改，服务器端部署。</p>
+            <p><b>工作成果：</b>项目已经成功验收，项目完成情况和技术支持工作得到客户的高度认可。</p>
+          </div>
 
         </div>
- -->
-    </section>
+
+        <!--  <div class="boxes default m-b-20 bgcol2">
+            <div class="box bg-gray-lightest">
+                ● JKL 公司 （ 2013 年 9 月 ~ 2015 年 5 月 ）
+            </div>
+            <div class="box bg-gray-lightest">
+                <p class="m-t-0">MNO 项目</p>
+                <p>我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
+            </div>
+            <div class="box bg-gray-lightest">
+                <p class="m-t-0">PQR 项目</p>
+                <p>我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
+            </div>
+            <div class="box bg-gray-lightest">
+                <p class="m-t-0">其他项目</p>
+                <p>（每个公司写2~3个核心项目就好了，如果你有非常大量的项目，那么按分类进行合并，每一类选一个典型写出来。其他的一笔带过即可。）</p>
+            </div>
+        </div>-->
+      </section>
 
 
-    <section id="ui1">
-        <h3 class="f-s-18 f-w-900 m-b-20" >所用框架个人作品</h3>
+      <section id="ui1">
+        <h3 class="f-s-18 f-w-900 m-b-20">所用框架个人作品</h3>
         <div class="col-lg-12 decimg">
-            <a href="http://dahuangzhang.cn/H5/dist/"  target="_blank"><img src="img/img2.jpg" alt="..." class="img-rounded col-lg-4" style="height: 250px;float: left"></a>
-            <a href="http://www.dahuangzhang.cn/dist" target="_blank"> <img src="img/img8.png" alt="..." class="img-rounded col-lg-4"  style="width:350px;height: 200px;margin-left: 20px"></a>
-            <a href="http://www.dahuangzhang.cn/QQmusic" target="_blank"><img src="img/img4.jpg" alt="..." class="img-rounded col-lg-4" style="width: 230px;height: 230px;float: right"></a>
+          <a
+            href="https://employee.91jkys.com/sso/login?redirect=http://static.91jkys.com/crm-drugstore-mobile/h5/index.html"><img
+              src="img/img2.jpg" alt="..." class="img-rounded col-lg-4" style="height: 250px;float: left"></a>
+          <a href="http://www.dahuangzhang.cn/dist" target="_blank"> <img src="img/img8.png" alt="..."
+              class="img-rounded col-lg-4" style="width:350px;height: 200px;margin-left: 20px"></a>
+          <a href="http://www.dahuangzhang.cn/QQmusic"><img src="img/img4.jpg" alt="..." class="img-rounded col-lg-4"
+              style="width: 230px;height: 230px;float: right"></a>
         </div>
 
 
-            <!--  <div class="box bg-gray-lightest bgcol2">
+        <!--  <div class="box bg-gray-lightest bgcol2">
                   ● domq（完美替换 jQuery 的模块化 DOM 库）：
                   <a href="https://github.com/nzbin/domq" target="_blank">https://github.com/nzbin/domq</a>
               </div>-->
 
-            <div class=" box bg-gray-lightest bgcol2 " style="margin-top: 270px ;font-size: 18px">
-                <p style="text-indent: 2em">点击图标进入相关的网站，本次页面一共有3个框架页面，所有页面均是本人独立完成个人开发，因为公司保密协议的原因，我做的最多，时间最长的angular框架ng-alain项目不能展示给大家看，angular链接页面是我所用的框架页面，本人能熟练使用ng-alain和ng-zorro进行快捷开发，凡是框架所展示的效果均能实现，
-                bootstrap页面开发展示的是我早年刚入行时模仿的一个QQ音乐的页面，里面主要是CSS和div的一些基本排版和伪类的使用属于前端的基础，里面用到了bootstrap的栅栏系统和弹性框架，本简历页面也大量使用了bootstrap框架进行开发，为了适用响应式编程布局，在移动端也可以显示，
-                vue是我用离职时间简单做的一个用于展示的项目页面。</p>
-                <a href="https://github.com/nzbin/three-dots" target="_blank"></a>
-            </div>
-            <!--<div class="box bg-gray-lightest bgcol2">
+        <div class=" box bg-gray-lightest bgcol2 " style="margin-top: 270px ;font-size: 18px">
+          <p style="text-indent: 2em">
+            点击图标进入相关的网站，本次页面一共有3个框架页面，所有页面均是本人独立完成个人开发，因为公司保密协议的原因，我做的最多，时间最长的angular框架ng-alain项目不能展示给大家看，angular链接页面是我所用的框架页面，本人能熟练使用ng-alain和ng-zorro进行快捷开发，凡是框架所展示的效果均能实现，
+            bootstrap页面开发展示的是我早年刚入行时模仿的一个QQ音乐的页面，里面主要是CSS和div的一些基本排版和伪类的使用属于前端的基础，里面用到了bootstrap的栅栏系统和弹性框架，本简历页面也大量使用了bootstrap框架进行开发，为了适用响应式编程布局，在移动端也可以显示，
+            vue是我用离职时间简单做的一个用于展示的项目页面。</p>
+          <a href="https://github.com/nzbin/three-dots" target="_blank"></a>
+        </div>
+        <!--<div class="box bg-gray-lightest bgcol2">
                 ● CardShow（卡片式抽奖插件）：
                 <a href="https://github.com/nzbin/CardShow" target="_blank">https://github.com/nzbin/CardShow</a>
             </div>-->
 
-    </section>
-    <section>
+      </section>
+      <section>
         <h3 class="f-s-18 f-w-900 m-b-20">个人评价</h3>
         <div class="boxes default m-b-20">
-            <div class="box bg-gray-lightest bgcol2">
-                <p style="font-size: 18px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;熟悉前端的基础语言与开发工具，如HTML/H5,JS/JQ等，能运用开发动静态网页，能运用框架如angular vue开发项目完成模块化，封装重复利用，完成公司的项目要求。<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;较强的项目学习能力，在实际开发过程中能通过自学，快速学习自己不懂的语言，应用搜索引擎和开源社区解决项目实际遇到的问题，达到跟上项目的进度的目的。<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;良好的沟通能力，在开发过程中重视团队沟通，对需要合作的项目进行相应的文档编写，防止语义不清导致的项目理解偏差，及时汇报进度保证团队了解相关的最新信息。<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人喜欢前端最新的技术的应用咨询，乐于分享自己在项目上遇到的问题解决的方法，在开源社区上如CSDN，github 均有本人的分享帖用于前端技术的探讨，参加过2018的ngchina大会，对前端未来充满热情。
-                </p>
-            </div>
+          <div class="box bg-gray-lightest bgcol2">
+            <p style="font-size: 18px">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;熟悉前端的基础语言与开发工具，如HTML/H5,JS/JQ等，能运用开发动静态网页，能运用框架如angular
+              vue开发项目完成模块化，封装重复利用，完成公司的项目要求。<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;较强的项目学习能力，在实际开发过程中能通过自学，快速学习自己不懂的语言，应用搜索引擎和开源社区解决项目实际遇到的问题，达到跟上项目的进度的目的。<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;良好的沟通能力，在开发过程中重视团队沟通，对需要合作的项目进行相应的文档编写，防止语义不清导致的项目理解偏差，及时汇报进度保证团队了解相关的最新信息。<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人喜欢前端最新的技术的应用咨询，乐于分享自己在项目上遇到的问题解决的方法，在开源社区上如CSDN，github
+              均有本人的分享帖用于前端技术的探讨，参加过2018的ngchina大会，对前端未来充满热情。
+            </p>
+          </div>
 
         </div>
-    </section>
-    <section id="contact">
-        <h3 class="f-s-18 f-w-900 m-b-20 " >个人经历</h3>
+      </section>
+      <section id="contact">
+        <h3 class="f-s-18 f-w-900 m-b-20 ">个人经历</h3>
 
-    </section>
+      </section>
 
 
-    <!--时间轴-->
-    <div class="container">
+      <!--时间轴-->
+      <div class="container">
 
         <header class="clearfix">
 
-            <span>以下是我近几年的个人生活介绍，非个人技术介绍，如果您希望全面了解我 ，可以深入看下去</span>
+          <span>以下是我近几年的个人生活介绍，非个人技术介绍，如果您希望全面了解我 ，可以深入看下去</span>
 
-            <h1>我重要的人生时间轴</h1>
+          <h1>我重要的人生时间轴</h1>
 
 
 
@@ -556,107 +635,119 @@
 
         <div class="main">
 
-            <ul class="cbp_tmtimeline">
+          <ul class="cbp_tmtimeline">
 
-                <li>
+            <li>
 
-                    <time class="cbp_tmtime" datetime="2014-08-28 18:30"><span>2014/8/28</span> <span>18:30</span></time>
+              <time class="cbp_tmtime" datetime="2014-08-28 18:30"><span>2014/8/28</span> <span>18:30</span></time>
 
-                    <div class="cbp_tmicon cbp_tmicon-phone"></div>
+              <div class="cbp_tmicon cbp_tmicon-phone"></div>
 
-                    <div class="cbp_tmlabel">
+              <div class="cbp_tmlabel">
 
-                        <h2> 2014年入学江西科技学院 从我的大学说起</h2>
+                <h2> 2014年入学江西科技学院 从我的大学说起</h2>
 
-                        <p>踏入大学的门拿到大学的卡，心中难免有些激动，但现在回想起来我的大学教给我最重要的，一切靠自己，想要学唯有靠自己，当时的我刚进校门想了想，给自己做了一个认识规划，我是一个怎样的人，当时的我不怎么说话沟通能力欠缺，缺少人情世故，需要计算机专业知识，需要一个谋身的本领，我想要我的大学结束后能有什么样的结果？我的回答是能在一个大城市生存下去，好好的活下去，那么为此，我明白在的大学中我该做什么了。补充自己的不足，终身学习，感谢我大学的所有的老师，他们的第一堂课各不相同，但是都告诉了我大学毕业，学校给不了什么，一个专业的成绩好坏，一门课程的成绩都影响不了我的未来，唯有自己学习才是通往自己未来的钥匙。但我并不知道的是，刚入学的这枚期待的种子，在我今后的大学4年中生根发芽，成长，帮助我一步一步的完成了我的蜕变。</p>
-                        <img src="img/s3.jpg"  class="img-responsive center-block">
-                    </div>
+                <p>
+                  踏入大学的门拿到大学的卡，心中难免有些激动，但现在回想起来我的大学教给我最重要的，恐怕就是大学什么都不会教给你，想要学唯有靠自己，当时的我刚进校门想了想，给自己做了一个认识规划，我是一个怎样的人，当时的我不怎么说话沟通能力欠缺，缺少人情世故，需要计算机专业知识，需要一个谋身的本领，我想要我的大学结束后能有什么样的结果？我的回答是能在一个大城市生存下去，好好的活下去，那么为此，我明白在的大学中我该做什么了。补充自己的不足，终身学习，感谢我大学的所有的老师，他们的第一堂课各不相同，但是都告诉了我大学毕业，学校给不了什么，一个专业的成绩好坏，一门课程的成绩都影响不了我的未来，唯有自己学习才是通往自己未来的钥匙。但我并不知道的是，刚入学的这枚期待的种子，在我今后的大学4年中生根发芽，成长，帮助我一步一步的完成了我的蜕变。
+                </p>
+                <img src="img/s3.jpg" class="img-responsive center-block">
+              </div>
 
-                </li>
+            </li>
 
-                <li>
+            <li>
 
-                    <time class="cbp_tmtime" datetime="2016-07-18T12:04"><span>2015/7/18</span> <span>12:04</span></time>
+              <time class="cbp_tmtime" datetime="2016-07-18T12:04"><span>2015/7/18</span> <span>12:04</span></time>
 
-                    <div class="cbp_tmicon cbp_tmicon-screen"></div>
+              <div class="cbp_tmicon cbp_tmicon-screen"></div>
 
-                    <div class="cbp_tmlabel">
+              <div class="cbp_tmlabel">
 
-                        <h2>人生中重要的时刻参加会共教育的魔鬼训练</h2>
+                <h2>人生中重要的时刻参加会共教育的魔鬼训练</h2>
 
-                        <p>会共教育在当时是南昌一家培养软实力的教育培训企业，机缘巧合下我自费参加了他们的暑期的魔鬼培训营，原因很简单，因为我深知自己缺少沟通，演说能力，这里能给我一段经历改变自己，成我想要的自己，在这28天的许多课程中，有我人生最重要的一段经历，生存挑战：10个人不带一分钱，3天去3个不同的城市。照片上就是我的团队，我是他们的临时队长，这里的故事可能一天都说不完，我们一起乞讨式的旅游去了九江，抚州，南昌，在这其中是无尽的辛酸，我是他们的队长，也是领导者，在这其中我并不是能力最强的，但也不是能力最差的，但是我还是平安的把他们都带回了了，秘诀就在与我自己领悟的一句话，请求比你强的人的帮助，帮助比你弱的人，因为我们是一个团队。感谢会共教育教会了我沟通，责任，担当，与爱。</p>
-                        <img src="img/s5.jpg"  class="img-responsive center-block">
-                    </div>
+                <p>
+                  会共教育在当时是南昌一家培养软实力的教育培训企业，机缘巧合下我自费参加了他们的暑期的魔鬼培训营，原因很简单，因为我深知自己缺少沟通，演说能力，这里能给我一段经历改变自己，成我想要的自己，在这28天的许多课程中，有我人生最重要的一段经历，生存挑战：10个人不带一分钱，3天去3个不同的城市。照片上就是我的团队，我是他们的临时队长，这里的故事可能一天都说不完，我们一起乞讨式的旅游去了九江，抚州，南昌，在这其中是无尽的辛酸，我是他们的队长，也是领导者，在这其中我并不是能力最强的，但也不是能力最差的，但是我还是平安的把他们都带回了了，秘诀就在与我自己领悟的一句话，请求比你强的人的帮助，帮助比你弱的人，因为我们是一个团队。感谢会共教育教会了我沟通，责任，担当，与爱。
+                </p>
+                <img src="img/s5.jpg" class="img-responsive center-block">
+              </div>
 
-                </li>
+            </li>
 
-                <li>
+            <li>
 
-                    <time class="cbp_tmtime" datetime="2017-04-13 05:36"><span>2016/2/13</span> <span>05:36</span></time>
+              <time class="cbp_tmtime" datetime="2017-04-13 05:36"><span>2016/2/13</span> <span>05:36</span></time>
 
-                    <div class="cbp_tmicon cbp_tmicon-mail"></div>
+              <div class="cbp_tmicon cbp_tmicon-mail"></div>
 
-                    <div class="cbp_tmlabel">
+              <div class="cbp_tmlabel">
 
-                        <h2>小试牛刀开启自己的校园创业-自行车租赁</h2>
+                <h2>小试牛刀开启自己的校园创业-自行车租赁</h2>
 
-                        <p>自行车租赁，是我在学校里的小小创业，我有一个合伙人是我的室友，开始的原因有很多，重要的就是我希望学习投资如何有回报，沟通能力的提升，与朋友合伙做生意要不要踩坑。我们每人投入了8000元，店里什么事情都要管理，成了半个社会人，一年半后为我们一个人收入了12000元，但是周末时间都待在了车铺，实习前夕转让了店铺，人生的第一笔投资没有打水漂真是万幸，这余下的钱，也为我来杭州打下了物质基础；非常感激这一段经历让我更好的认识了自己，也为我跨出大学的门做了最重要的准备。</p>
-                        <img src="img/s1.jpg"  class="img-responsive center-block">
-                    </div>
+                <p>
+                  自行车租赁，是我在学校里的小小创业，我有一个合伙人是我的室友，开始的原因有很多，重要的就是我希望学习投资如何有回报，沟通能力的提升，与朋友合伙做生意要不要踩坑。我们每人投入了8000元，店里什么事情都要管理，成了半个社会人，一年半后为我们一个人收入了12000元，但是周末时间都待在了车铺，实习前夕转让了店铺，人生的第一笔投资没有打水漂真是万幸，这余下的钱，也为我来杭州打下了物质基础；非常感激这一段经历让我更好的认识了自己，也为我跨出大学的门做了最重要的准备。
+                </p>
+                <img src="img/s1.jpg" class="img-responsive center-block">
+              </div>
 
-                </li>
+            </li>
 
-                <li>
+            <li>
 
-                    <time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>2017/10/13</span> <span>13:15</span></time>
+              <time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>2017/10/13</span> <span>13:15</span></time>
 
-                    <div class="cbp_tmicon cbp_tmicon-phone"></div>
+              <div class="cbp_tmicon cbp_tmicon-phone"></div>
 
-                    <div class="cbp_tmlabel">
+              <div class="cbp_tmlabel">
 
-                        <h2>开始实习,孤身一人来杭州，实现自己的初心</h2>
+                <h2>开始实习,孤身一人来杭州，实现自己的初心</h2>
 
-                        <p>第一次来杭州的西湖还是那么的美，这是我第一次来杭州，有别于其它人，大学的最后一个学期，没什么课。一周3节，让我能提前一学期来杭州实习，非常感激我的老师理解我，让我能提前走出校门去实习，我的第一家公司是浙江海源地理信息有限公司，职务是前端程序员，自行车铺的钱刚好够杭州租房的押金和第一个月的生活费，至次我完成了大学最开始的希望，在一个大城市中生存下去，十分感激我的上司孙总愿意教一个什么都不懂的大学生，在海源，我不仅学会了前端，还有运维，布线，服务器部署，有幸参加了浙江台州的全国湾滩长大会，作为他们的现场支持技术人员，支持三维地图的前端建设。</p>
+                <p>
+                  第一次来杭州的西湖还是那么的美，这是我第一次来杭州，有别于其它人，大学的最后一个学期，没什么课。一周3节，让我能提前一学期来杭州实习，非常感激我的老师理解我，让我能提前走出校门去实习，我的第一家公司是浙江海源地理信息有限公司，职务是前端程序员，自行车铺的钱刚好够杭州租房的押金和第一个月的生活费，至次我完成了大学最开始的希望，在一个大城市中生存下去，十分感激我的上司孙总愿意教一个什么都不懂的大学生，在海源，我不仅学会了前端，还有运维，布线，服务器部署，有幸参加了浙江台州的全国湾滩长大会，作为他们的现场支持技术人员，支持三维地图的前端建设。
+                </p>
 
-                        <img src="img/s2.jpg"  class="img-responsive center-block">
-                    </div>
+                <img src="img/s2.jpg" class="img-responsive center-block">
+              </div>
 
-                </li>
+            </li>
 
-                <li>
+            <li>
 
-                    <time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>2018/5/28</span> <span>9:30</span></time>
+              <time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>2018/5/28</span> <span>9:30</span></time>
 
-                    <div class="cbp_tmicon cbp_tmicon-earth"></div>
+              <div class="cbp_tmicon cbp_tmicon-earth"></div>
 
-                    <div class="cbp_tmlabel">
+              <div class="cbp_tmlabel">
 
-                        <h2>毕业，那些曾经美好的青春祝福</h2>
+                <h2>毕业，那些曾经美好的青春祝福</h2>
 
-                        <p>阳光明媚，这张是我用无人机航拍的照片，中间是我；我实现了我的大学规划，兑现了我的大学诺言，不忘初心，方得始终。很高兴我的大学没有什么遗憾，若非说有，可能就是没有去谈一场恋爱吧，太专注自己的学习，休闲时间少的可怜。但我不后悔，再见了我亲爱的同班同学，你们的学士帽还是一样的帅气，再见了我的大学，谢谢您教给我的一切，让我足与用一句话来概括：大学什么都不会教给你，唯有靠自己。谢谢您，感恩我的老师同学；让我学会了独立。</p>
+                <p>
+                  阳光明媚，这张是我用无人机航拍的照片，中间是我；我实现了我的大学规划，兑现了我的大学诺言，不忘初心，方得始终。很高兴我的大学没有什么遗憾，若非说有，可能就是没有去谈一场恋爱吧，太专注自己的学习，休闲时间少的可怜。但我不后悔，再见了我亲爱的同班同学，你们的学士帽还是一样的帅气，再见了我的大学，谢谢您教给我的一切，让我足与用一句话来概括：大学什么都不会教给你，唯有靠自己。谢谢您，感恩我的老师同学；让我学会了独立。
+                </p>
 
-                        <img src="img/s4.jpg"  class="img-responsive center-block">
-                    </div>
+                <img src="img/s4.jpg" class="img-responsive center-block">
+              </div>
 
-                </li>
+            </li>
 
-                <li>
+            <li>
 
-                    <time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>2018/12/14</span> <span>12:11</span></time>
+              <time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>2018/12/14</span> <span>12:11</span></time>
 
-                    <div class="cbp_tmicon cbp_tmicon-screen"></div>
+              <div class="cbp_tmicon cbp_tmicon-screen"></div>
 
-                    <div class="cbp_tmlabel">
+              <div class="cbp_tmlabel">
 
-                        <h2>认清方向，希望深入向前端发展</h2>
+                <h2>认清方向，希望深入向前端发展</h2>
 
-                        <p>2018ng-china大会现场的照片，这是angular的全球大会，在学习angular的过程中，官网偶然发现的，现场真是大牛云集啊，阿里的ng-zorro前端开发组；谷歌社区的angular的成员，台湾的鸟哥，第一次参加后，让我对前端未来发展的方向有了更深的理解未来的组件化，模块化的建站也有了了解。让我也坚定了朝着前端发展的道路，希望未来我能成为一个前端兼管理的技术骨干</p>
-                        <img src="img/s6.jpg"  class="img-responsive center-block">
-                    </div>
+                <p>
+                  2018ng-china大会现场的照片，这是angular的全球大会，在学习angular的过程中，官网偶然发现的，现场真是大牛云集啊，阿里的ng-zorro前端开发组；谷歌社区的angular的成员，台湾的鸟哥，第一次参加后，让我对前端未来发展的方向有了更深的理解未来的组件化，模块化的建站也有了了解。让我也坚定了朝着前端发展的道路，希望未来我能成为一个前端兼管理的技术骨干
+                </p>
+                <img src="img/s6.jpg" class="img-responsive center-block">
+              </div>
 
-                </li>
+            </li>
 
-               <!-- <li>
+            <!-- <li>
 
                     <time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>2019/4/13</span> <span>09:56</span></time>
 
@@ -672,13 +763,13 @@
 
                 </li>-->
 
-            </ul>
+          </ul>
 
         </div>
 
-    </div>
-    <!--时间轴-->
-    <div class="boxes default m-b-20">
+      </div>
+      <!--时间轴-->
+      <div class="boxes default m-b-20">
 
 
 
@@ -690,7 +781,7 @@
 
 
 
-       <!-- <div class="box bg-gray-lightest bgcol2">
+        <!-- <div class="box bg-gray-lightest bgcol2">
             <p style="font-size: 18px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;熟悉前端的基础语言与开发工具，如HTML/H5,JS/JQ等，能运用开发动静态网页，能运用框架如angular vue开发项目完成模块化，封装重复利用，完成公司的项目要求。<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;较强的项目学习能力，在实际开发过程中能通过自学，快速学习自己不懂的语言，应用搜索引擎和开源社区解决项目实际遇到的问题，达到跟上项目的进度的目的。<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;良好的沟通能力，在开发过程中重视团队沟通，对需要合作的项目进行相应的文档编写，防止语义不清导致的项目理解偏差，及时汇报进度保证团队了解相关的最新信息。<br>
@@ -698,23 +789,26 @@
             </p>
         </div>-->
 
-    </div>
+      </div>
 
-</main>
+    </main>
 
-</div>
+  </div>
 
-<!-- Bootstrap core JavaScript
+  <!-- Bootstrap core JavaScript
 ================================================== -->
 
 
 
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+  </script>
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
 </body>
+
 </html>
