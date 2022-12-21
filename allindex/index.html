@@ -196,11 +196,21 @@
       font-size: 22px;
 
     }
+    
+    @media screen and (min-width:1201px) {
+      .boxTitle{
+        font-size: 22px;
+        font-weight: 900;
+        display: flex;
+        justify-content: space-around;
+      }
+    }
 
     @media screen and (max-width: 901px) {
       .siying {
         opacity: 0;
       }
+     
 
       .qubiansjx {
         height: 100px;
@@ -232,6 +242,26 @@
     @media screen and (max-width: 601px) {
       .qubiansjx {
         opacity: 0;
+      }
+      .boxTitle{
+        font-size: 22px;
+        font-weight: 900;
+      }
+      .boxdiv{
+        display: flex;
+        justify-content: center;
+      }
+      .boxRight{
+        display: flex;
+        justify-content:right;
+      }
+      .boximg{
+        display: flex;
+        flex-direction: column;
+      }
+      .boxDivimg{
+        display: flex;
+        justify-content:center;
       }
 
       .geren {
@@ -273,12 +303,10 @@
   <div class="jumbotron">
     <main class="page ">
       <section style="position: relative">
-        <div class="siying">您好，我叫饶博翰，坐标杭州，计算机本科毕业，毕业后一直从事互联网行业，主要做前端开发，也做过运维管理，喜爱前端技术，今后希望能在前端技术行业深入发展
-          目前掌握的技术有HTML+CSS,vue,Element，cube—ui，等vue框架库，独立负责过前端项目，也和团队合作一起开发过大型跨端的复杂项目，热爱和团队成员交流，能够快速接受新事物，新技术
-          主动思考，不断提升自己的开发效率和技术水平。
-
-
-          <p class="ser3">喜爱前端，乐于探索自己不会的新技术，执行力，学习力棒棒的!</p>
+        <div class="siying">您好，我叫饶博翰，坐标杭州，计算机本科毕业，毕业后一直从事做前端开发工作，负责过多个大型项目的客户端的开发和落地也解决过行业内的一些难题。目前主要擅长行业内B端的客户端的设计
+          与实现，研究过3代第代码平台。主要的技术有HTML+CSS+JS,VUE2.0+3.0,会使用所有主流的UI框架，精通VUE为核心的框架的开发实现，海康威视PDA的专家级负责人。目前主要工作是与团队合作进行前端开发。研究新技术提升开发效率，负责海康威视机器人中心的所有客户端的开发与实现，负责过iwms工作中组的3代
+          客户端的重构与实现。
+          <p class="ser3">喜爱前端，乐于探索新技术，相信一个人的优秀不如一个优秀的团队。希望能用流程管理培养一个优秀的前端团队，期待能与您共事</p>
         </div>
 
         <!--我的照片-->
@@ -293,9 +321,9 @@
 
         <h3 class="dl-horizontal ">联系方式</h3>
         <div class="row  bgcol">
-          <div class="col-lg-4   ">● 手机：15350014683</div>
-          <div class="col-lg-4  ">● Email：15350014683@163.com</div>
-          <div class="col-lg-4  ">● QQ/微信：875143287/15350014683</div>
+          <div class="col-lg-4">● 手机：15350014683</div>
+          <div class="col-lg-4">● Email：15350014683@163.com</div>
+          <div class="col-lg-4">● QQ/微信：875143287/15350014683</div>
         </div>
 
       </section>
@@ -308,9 +336,10 @@
           <div class="box bg-gray-lightest p-t-0 p-b-0 ">
             <div class="row  ">
               <div class="col-lg-12">
-                <div class="col-lg-4 p-b-10 bgcol2">● 饶博翰 | 男 | 1997 | 24岁</div>
+                <div class="col-lg-4 p-b-10 bgcol2">● 饶博翰 | 男 | 1997 | 26岁</div>
+                <div class="col-lg-4 p-b-10 bgcol2">● 现任职 | 海康威视机器人业务中心 </div>
                 <div class="col-lg-4 p-t-10 p-b-10 border bgcol2">● 江西科技学院毕业 | 计算机科学技术 | 统招本科</div>
-                <div class="col-lg-4 p-t-10 p-b-10 border bgcol2">● 应聘前端开发 | 3 年工作经验</div>
+                <div class="col-lg-4 p-t-10 p-b-10 border bgcol2">● 应聘前端开发 | 5 年工作经验</div>
               </div>
 
 
@@ -329,7 +358,7 @@
                 <div class="box bg-gray-lightest bgcol2">
                   ● 上线项目网站：
                   <a href="https://dahuangzhang.cn:9999/mapH5/#/policehandling"
-                    target="_blank">https://dahuangzhang.cn:9999/mapH5/#/policehandling</a>
+                    target="_blank">&nbsp https://dahuangzhang.cn:9999/mapH5/#/policehandling</a>
                   <a href="https://dahuangzhang.cn:9999/mapsetlook/#/" target="_blank"> &nbsp
                     https://dahuangzhang.cn:9999/mapsetlook/#/ </a>
                   <a href="https://dahuangzhang.cn:9999/H5/dist/" target="_blank"> &nbsp
@@ -348,18 +377,18 @@
         <h3 class="f-s-18 f-w-900 m-b-20">技术优势</h3>
         <div class="boxes default m-b-20">
           <div class="box bg-gray-lightest bgcol2 ">
-            ● 熟练使用HTML/HTML5，CSS/CSS3、Javascript、 Jquery库、等；开发动态，静态网页，熟悉基本前端语言 HTML5+CSS+js，以及各种框架及其UI组件库如（Ant design系列
+            ● 熟练使用HTML/HTML5，CSS/CSS3、Javascript、ES6, Jquery库等，熟悉前端语言 HTML5+CSS+js，以及各种框架及其UI组件库如（Ant design系列
             mint-ui移动系列）完成跨端开发（pc端+H5+微信小程序）。
           </div>
           <div class="box bg-gray-lightest bgcol2">
             ● 熟悉vue全家桶 主流MVVM框架 及其原理应用。
           </div>
           <div class="box bg-gray-lightest bgcol2">
-            ● 熟练使用vue 进行项目的技术选型，参与产品的需求实现以及功能讨论，熟悉以vue基础的代码插件对项目的功能组件，ajax接口请求进行封装，实现前端模块化，组件化，工程化
+            ● 熟练使用vue2.0 3.0 进行项目的技术选型，参与产品的需求实现以及功能讨论，熟悉以vue基础的代码插件对项目的功能组件，ajax接口请求进行封装，实现前端模块化，组件化，工程化
             ，文档化，以实现期望的UI设计图的效果,独立开发过crm类型的项目对组件封装，混入应用有特殊心得。
           </div>
           <div class="box bg-gray-lightest bgcol2">
-            ● 了解构建工具，包括webpack、angular-cli等；利用构架工具，进行打包至服务器部署更新，用linux语言进行服务器操作，具备相应的文档编写能力。
+            ● 了解构建工具，包括webpack、Vue-cli等；利用构架工具，进行打包至服务器部署更新，用linux语言进行服务器操作，具备相应的文档编写能力。
           </div>
           <div class="box bg-gray-lightest bgcol2">
             ● 了解前端调试技巧，和前端MOCK数据技术，能使用MOCK.JS mock数据进行简单的项目单元测试力。
@@ -369,7 +398,22 @@
           </div>
         </div>
 
-        <!--进度条-->
+        <h3 class="f-s-18 f-w-900 m-b-20">专长关键词</h3>
+        <div class="boxes default m-b-20">
+          <div class="box bg-gray-lightest bgcol2 " style=" font-weight: 600; font-size: 18px;">
+           B端客户端前端专家  低代码平台建设 团队技术推广者  PDA开发专家
+          </div>
+          
+        </div>
+        <h3 class="f-s-18 f-w-900 m-b-20">职业期望</h3>
+        <div class="boxes default m-b-20">
+          <div class="box bg-gray-lightest bgcol2 ">
+            相信一个人的优秀不如一个优秀的团队。希望能用流程管理培养一个优秀的前端团队，能在一个公司用流程批量复制前端人才，相信苦干不如巧干，希望能在一个重视能效比的团队中工作。
+          </div>
+          
+        </div>
+
+        
         <h2>技术熟练度</h2>
         <div style="margin-top: 20px">
           <div class="progress ">
@@ -409,14 +453,47 @@
 
       <section>
         <h3 class="f-s-18 f-w-900 m-b-20">工作经历 <a class="f-w-100" href="" target="_blank">ResumeSample</a></h3>
-        
         <div class="boxes default m-b-20 bgcol2 ">
+          <div class="box bg-gray-lightest  boxTitle" >
+            <div class="m-b-20  " style="font-size: 16px">
+              2021.5-至今  
+             </div> 
+             <div class="m-b-20 boxdiv " style="font-size: 20px">
+              海康威视机器人业务中心 
+             </div> 
+             <div class="m-b-20 boxRight " style="font-size: 20px">
+              前端工程师
+             </div> 
+          </div>
           <div class="box bg-gray-lightest">
-            <b style="font-size: 20px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2020.10-2021.04
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 北京深睿博联科技有限责任公司
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
+            <p style="margin-top: 20px"><b>工作内容：</b><br>
+              1 负责仓储组所有项目的客户端的PDA+工作站的基线开发与重构，确立大版本的客户端的功能与规范，分析当前行业内需求实现的技术可行性，并进行落地开发。
+              <br>
+              2 负责2021-2022 的所有PDA项目的定制开发与实现，使用基线版本为所有行业的定制项目进行定制化开发，培训团队成员，提升定制开发效率。用于解决B端的实际开发问题，并反馈完善基线开发迭代工作。
+              <br>
+              3 负责制定机器人行业PDA的软硬件标准规范，根据实际开发过程中反馈的问题进行深入思考，制定能提高研发效率的标准与规范，配合开发公司自己的软硬件产品推广行业和市场。
+
+            </p>
+            </p>
+            <p><b>成果与收获：</b><br>
+              1 使用H5和vue技术对机器人行业的PDA项目进行了从0到1的开发，使海康的机器人业务开发线的客户端设计经历了前后端分离，以及低代码平台的跨越，并作为海康机器人业务中心PDA的专家进行对外项目
+              的支持与文档建设。<br>
+              2 作为3代基线的开发者和推广者，将基线的客户端推广到团队定制项目的开发与实现，提高了团队200%的工作效率。2年承接全行业80以上的的大型B端前端项目，对B端客户端的理解达到了专家级，并为总部的所有的技术支持提供培训。<br>
+              3 作为机器人行业的开发者为行业提供标准的制定，从单纯的开发者转变为行业的支持者，会从整体行业出发，深入思考行业所需技术，并落实到部门的具体技术实现，并应用到定制项目中进行落地，在B端的客户端设计达到专家级。
+            </p>
+          </div>
+        </div>
+        <div class="boxes default m-b-20 bgcol2 ">
+          <div class="box bg-gray-lightest  boxTitle" >
+            <div class="m-b-20  " style="font-size: 16px">
+              2020.10-2021.04
+             </div> 
+             <div class="m-b-20 boxdiv " style="font-size: 20px">
+              北京深睿博联科技有限责任公司
+             </div> 
+             <div class="m-b-20 boxRight " style="font-size: 20px">
+              前端工程师
+             </div> 
           </div>
           <div class="box bg-gray-lightest">
             <p style="margin-top: 20px"><b>工作内容：</b><br>
@@ -438,16 +515,21 @@
 
         <div class="boxes default m-b-20 bgcol2 ">
           <div class="box bg-gray-lightest">
-            <b style="font-size: 20px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2020.6-2020.9
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 杭州新视窗信息技术有限公司
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
+            <div class="box bg-gray-lightest  boxTitle" >
+              <div class="m-b-20  " style="font-size: 16px">
+                2020.6-2020.9
+               </div> 
+               <div class="m-b-20 boxdiv " style="font-size: 20px">
+                杭州新视窗信息技术有限公司
+               </div> 
+               <div class="m-b-20 boxRight " style="font-size: 20px">
+                前端工程师
+               </div> 
+            </div>
           </div>
           <div class="box bg-gray-lightest">
             <p style="margin-top: 20px"><b>工作内容：</b><br>
-              1
-              作为前端上线小组成员支持养老管理系统，运送管理系统，陪护管理系统，三个大型跨端管理系统的项目上线迭代开发，解决项目遗留的各种棘手问题，使项目达到能够给用户验收的标准，主要包括养老系统照护计划模块的批量重构，运送移动端的流程重构
+              1作为前端上线小组成员支持养老管理系统，运送管理系统，陪护管理系统，三个大型跨端管理系统的项目上线迭代开发，解决项目遗留的各种棘手问题，使项目达到能够给用户验收的标准，主要包括养老系统照护计划模块的批量重构，运送移动端的流程重构
               <br>
               2 合理分配产品提出的需求清单，根据原型图形成自己工作内容的任务功能清单，并录入bug系统用于测试和需求回归处理。
               <br>
@@ -467,20 +549,23 @@
 
         <div class="boxes default m-b-20 bgcol2 ">
           <div class="box bg-gray-lightest">
-            <b style="font-size: 20px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2019.08-2020.06
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 杭州康晟健康管理咨询有限公司
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
+            <div class="box bg-gray-lightest  boxTitle" >
+              <div class="m-b-20  " style="font-size: 16px">
+                2019.08-2020.06
+               </div> 
+               <div class="m-b-20 boxdiv " style="font-size: 20px">
+                杭州康晟健康管理咨询有限公司 
+               </div> 
+               <div class="m-b-20 boxRight " style="font-size: 20px">
+                前端工程师
+               </div> 
+            </div>
           </div>
           <div class="box bg-gray-lightest">
             <p style="margin-top: 20px"><b>工作内容：</b><br>
-              1
-              前期负责重构，医院部署项目的H5钉钉小程序的前端开发。<br>
-              2.
-              作为前端项目的负责人，负责前端低代码平台产品的建设，主要包含 H5医药销售系统平台建设，包括数据整理，接口规范制定，整体架构设计，技术选型，代码实现。 <br>
-              3
-              抽象封装公共组件类库，制定团队成员都能使用的混入式类库，用于提高团队的开发效率，总结开发经验，形成文档推广。
+              1 前期负责重构，医院部署项目的H5钉钉小程序的前端开发。<br>
+              2 作为前端项目的负责人，负责前端低代码平台产品的建设，主要包含 H5医药销售系统平台建设，包括数据整理，接口规范制定，整体架构设计，技术选型，代码实现。 <br>
+              3 抽象封装公共组件类库，制定团队成员都能使用的混入式类库，用于提高团队的开发效率，总结开发经验，形成文档推广。
 
             </p>
             </p>
@@ -495,11 +580,17 @@
 
         <div class="boxes default m-b-20 bgcol2 ">
           <div class="box bg-gray-lightest">
-            <b style="font-size: 20px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2018.07-2019.04
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 浙江臻善科技股份有限公司
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
+            <div class="box bg-gray-lightest  boxTitle" >
+              <div class="m-b-20  " style="font-size: 16px">
+                2018.07-2019.04
+               </div> 
+               <div class="m-b-20 boxdiv " style="font-size: 20px">
+                浙江臻善科技股份有限公司 
+               </div> 
+               <div class="m-b-20 boxRight " style="font-size: 20px">
+                前端工程师
+               </div> 
+            </div>
           </div>
           <div class="box bg-gray-lightest">
             <p style="margin-top: 20px"><b>工作内容：</b><br>
@@ -524,14 +615,53 @@
       <section>
         <h3 class="f-s-18 f-w-900 m-b-20">项目经验 <a class="f-w-100" href="" target="_blank">Experience in project
           </a></h3>
+          <div class="boxes default m-b-20 bgcol2 ">
+            <div class="box bg-gray-lightest">
+              <div class="box bg-gray-lightest  boxTitle" >
+                <div class="m-b-20  " style="font-size: 16px">
+                  2021.5-至今  
+                 </div> 
+                 <div class="m-b-20 boxdiv " style="font-size: 20px">
+                  海康威视机器人业务中心 
+                 </div> 
+                 <div class="m-b-20 boxRight " style="font-size: 20px">
+                  前端工程师
+                 </div> 
+              </div>
+            </div>
+            <div class="box bg-gray-lightest">
+              <p class="m-t-0" style="text-align: center;margin-top: 20px">iwms仓储管理系统客户端+PDA</p>
+              <p>
+                <b>项目描述：</b> iwms仓储管理系统是海康机器人业务中心复杂系统必备的系统之一，它是多个系统的上层系统，用于管理机器人的移动，库存更新相关的所有业务，也是和B端客户直接交互的一个上层系统，客户端业务操作较为复杂，涉及软硬件诸多技术细节，客户端主体使用vue框架已由我们研发团队经历过3代的技术更新
+                ，目前使用vue3.0搭建的低代码技术平台进行开发。
+              </p>
+              <p><b>使用技术：</b>vue Element-ui vuex lodash echarts es6 canvas svg</p>
+              <p><b>主要职责:</b> 负责PDA的3代客户端的基线技术开发，根据定制项目和未来行业出现的需求，进行功能开发。保证提供的基础功能覆盖到定制项目的各方面，处理版本迭代，以及历史遗留问题。</p>
+              <p><b>工作成果：</b><br>
+                1 研发基线产品为全行业120+的定制项目节约80%以上的开发效率，解决了PDA开发过程中的行业难题，为硬件部门的自研产品提供标准与支持，iwms系统获得海康的内部团队1等奖。<br>
+                2 基于3代前端开发技术为海康客户端进行了重构，完善了海康的前端产品线，并与主流技术保持一致。技术重构上修正了海康的很多遗留问题。使前后端分离更规范化。
+                <br>
+                3 负责海康80+的定制的开发与上线，负责3c行业PDA的所有问题，并总结多项成果文档，供技术支持和总部进行查看，培训所有前端的团队成员以及技术支持，使能够迅速上手定制项目开发提高团队整体效率。
+              </p>
+            </div>
+  
+          </div>
+     
+
 
         <div class="boxes default m-b-20 bgcol2 ">
             <div class="box bg-gray-lightest">
-              <b style="font-size: 20px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2020.10-2021.04
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 北京深睿博联科技有限责任公司
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
+              <div class="box bg-gray-lightest  boxTitle" >
+                <div class="m-b-20  " style="font-size: 16px">
+                  2020.10-2021.04
+                 </div> 
+                 <div class="m-b-20 boxdiv " style="font-size: 20px">
+                  北京深睿博联科技有限责任公司 
+                 </div> 
+                 <div class="m-b-20 boxRight " style="font-size: 20px">
+                  前端工程师
+                 </div> 
+              </div>
             </div>
             <div class="box bg-gray-lightest">
               <p class="m-t-0" style="text-align: center;margin-top: 20px">智慧AI影像云医疗平台-AI骨龄胶片打印</p>
@@ -546,9 +676,6 @@
                 2 基于winxp 和 win7的特殊系统进行迭代满足了河南电力医院的横竖屏的特殊报告打印需求。并推广到主分支进行迭代，满足了竖屏打印的客户。设置配置选项兼容了更多的工作场景和医院信息
                 <br>
                 3 对代码格式和上线规范做了部分优化，使用eslint 去格式化项目，保证了项目所有代码的整体风格一致，维护了项目的后续管理，开发基于医院医生操作优化的fix2版本，对多选情况进行独立开发，提升了用户百分之20以上对处理效率。
-                
-  
-  
               </p>
             </div>
   
@@ -556,11 +683,17 @@
 
         <div class="boxes default m-b-20 bgcol2 ">
           <div class="box bg-gray-lightest">
-            <b style="font-size: 20px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2020.06-2020.9
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 杭州新视窗信息技术有限公司
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;前端上线组-前端工程师</b>
+            <div class="box bg-gray-lightest  boxTitle" >
+              <div class="m-b-20  " style="font-size: 16px">
+                2020.06-2020.9
+               </div> 
+               <div class="m-b-20 boxdiv " style="font-size: 20px">
+                杭州新视窗信息技术有限公司 
+               </div> 
+               <div class="m-b-20 boxRight " style="font-size: 20px">
+                前端工程师
+               </div> 
+            </div>
           </div>
           <div class="box bg-gray-lightest">
             <p class="m-t-0" style="text-align: center;margin-top: 20px">小熊运送系统-养老管理系统-陪护管理系统</p>
@@ -585,11 +718,17 @@
 
         <div class="boxes default m-b-20 bgcol2 ">
           <div class="box bg-gray-lightest">
-            <b style="font-size: 20px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2019.08-2020.06
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 杭州康晟健康管理咨询有限公司
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;H5前端工程师</b>
+            <div class="box bg-gray-lightest  boxTitle" >
+              <div class="m-b-20  " style="font-size: 16px">
+                2019.08-2020.06
+               </div> 
+               <div class="m-b-20 boxdiv " style="font-size: 20px">
+                杭州康晟健康管理咨询有限公司
+               </div> 
+               <div class="m-b-20 boxRight " style="font-size: 20px">
+                H5前端工程师
+               </div> 
+            </div>
           </div>
           <div class="box bg-gray-lightest">
             <p class="m-t-0" style="text-align: center;margin-top: 20px">H5药店CRM管理系统开发</p>
@@ -610,11 +749,17 @@
 
         <div class="boxes default m-b-20 bgcol2 ">
           <div class="box bg-gray-lightest">
-            <b style="font-size: 20px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2018.07-2019.04
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 浙江臻善科技股份有限公司
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
+            <div class="box bg-gray-lightest  boxTitle" >
+              <div class="m-b-20  " style="font-size: 16px">
+                2018.07-2019.04
+               </div> 
+               <div class="m-b-20 boxdiv " style="font-size: 20px">
+                浙江臻善科技股份有限公司
+               </div> 
+               <div class="m-b-20 boxRight " style="font-size: 20px">
+                前端工程师
+               </div> 
+            </div>
           </div>
           <div class="box bg-gray-lightest">
             <p class="m-t-0" style="text-align: center;margin-top: 20px">杰思科不动产平台一窗建设项目</p>
@@ -638,11 +783,17 @@
 
         <div class="boxes default m-b-20 bgcol2 ">
           <div class="box bg-gray-lightest">
-            <b style="font-size: 20px">● &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2017.09-2018.07
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 浙江海源地理信息有限公司
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;前端工程师</b>
+            <div class="box bg-gray-lightest  boxTitle" >
+              <div class="m-b-20  " style="font-size: 16px">
+                2017.09-2018.07
+               </div> 
+               <div class="m-b-20 boxdiv " style="font-size: 20px">
+                浙江海源地理信息有限公司
+               </div> 
+               <div class="m-b-20 boxRight " style="font-size: 20px">
+                前端工程师
+               </div> 
+            </div>
           </div>
           <div class="box bg-gray-lightest">
             <p class="m-t-0" style="text-align: center;margin-top: 20px">地理信息局大数据平台</p>
@@ -661,12 +812,20 @@
       <section id="ui1">
         <h3 class="f-s-18 f-w-900 m-b-20">所用框架个人作品</h3>
         <div class="col-lg-12 decimg">
+          <div class="boximg">
+            <div class="boxDivimg">
           <a href="https://dahuangzhang.cn:9999/mapH5/#/policehandling" target="_blank"><img src="img/img2.jpg"
               alt="..." class="img-rounded col-lg-4" style="height: 250px;float: left"> </a>
+          </div>
+          <div class="boxDivimg">
           <a href="https://dahuangzhang.cn:9999/mapsetlook/#/" target="_blank"> <img src="img/s7.gif" alt="..."
-              class="img-rounded col-lg-4" style="width:280px;height: 250px;margin-left: 5%;"></a>
+              class="img-rounded col-lg-4" style="width:280px;height: 250px;"></a>
+              </div>
+              <div class="boxDivimg">
           <a href="https://dahuangzhang.cn:9999/QQmusic" target="_blank"><img src="img/img4.jpg" alt="..."
               class="img-rounded col-lg-4" style="width: 250px;height: 250px;float: right"></a>
+          </div>
+                </div>
 
         </div>
         <div class="margoincenter"><button class="cilicbutton">点击图标查看对应网页</button></div>
@@ -720,6 +879,112 @@
         <div class="main">
 
           <ul class="cbp_tmtimeline">
+            <li>
+
+              <time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>2021/6/13</span> <span>12:11</span></time>
+
+              <div class="cbp_tmicon cbp_tmicon-screen"></div>
+
+              <div class="cbp_tmlabel">
+
+                <h2>加入海康威视，重要的人生选择帮助我用更高的行业视角去思考前端工作</h2>
+                <p>
+                 2021年我6月加入海康威视，机器人业务中心工作，大公司的工作流程比小公司有一定的先进性，在工作过程中，为了能应对更多的定制项目，我们参与了研发基线的过程，使用一个基线产品能帮助多个定制的项目提升70%以上的工作效率，全新的开发模式，拓宽了我的视角，技术仅仅实现功能的一环，有时先进的管理模式，和流程开发方式更能节约时间效率。在此过程中我也不断的深入到机器人行业的发展中。并成为了PDA的有关专家。
+                </p>
+                <img src="img/s9.jpg" class="img-responsive center-block">
+              </div>
+
+            </li>
+            <li>
+
+              <time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>2018/12/14</span> <span>12:11</span></time>
+
+              <div class="cbp_tmicon cbp_tmicon-screen"></div>
+
+              <div class="cbp_tmlabel">
+
+                <h2>认清方向，希望深入向前端发展</h2>
+
+                <p>
+                  2018ng-china大会现场的照片，这是angular的全球大会，在学习angular的过程中，官网偶然发现的，现场真是大牛云集啊，阿里的ng-zorro前端开发组；谷歌社区的angular的成员，台湾的鸟哥，第一次参加后，让我对前端未来发展的方向有了更深的理解未来的组件化，模块化的建站也有了了解。让我也坚定了朝着前端发展的道路，希望未来我能成为一个前端兼管理的技术骨干
+                </p>
+                <img src="img/s6.jpg" class="img-responsive center-block">
+              </div>
+
+            </li>
+            <li>
+
+              <time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>2018/5/28</span> <span>9:30</span></time>
+
+              <div class="cbp_tmicon cbp_tmicon-earth"></div>
+
+              <div class="cbp_tmlabel">
+
+                <h2>毕业，那些曾经美好的青春祝福</h2>
+
+                <p>
+                  阳光明媚，这张是我用无人机航拍的照片，中间是我；我实现了我的大学规划，兑现了我的大学诺言，不忘初心，方得始终。很高兴我的大学没有什么遗憾，若非说有，可能就是没有去谈一场恋爱吧，太专注自己的学习，休闲时间少的可怜。但我不后悔，再见了我亲爱的同班同学，你们的学士帽还是一样的帅气，再见了我的大学，谢谢您教给我的一切，让我足与用一句话来概括：大学什么都不会教给你，唯有靠自己。谢谢您，感恩我的老师同学；让我学会了独立。
+                </p>
+
+                <img src="img/s4.jpg" class="img-responsive center-block">
+              </div>
+
+            </li>
+            <li>
+
+              <time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>2017/10/13</span> <span>13:15</span></time>
+
+              <div class="cbp_tmicon cbp_tmicon-phone"></div>
+
+              <div class="cbp_tmlabel">
+
+                <h2>开始实习,孤身一人来杭州，实现自己的初心</h2>
+
+                <p>
+                  第一次来杭州的西湖还是那么的美，这是我第一次来杭州，有别于其它人，大学的最后一个学期，没什么课。一周3节，让我能提前一学期来杭州实习，非常感激我的老师理解我，让我能提前走出校门去实习，我的第一家公司是浙江海源地理信息有限公司，职务是前端程序员，自行车铺的钱刚好够杭州租房的押金和第一个月的生活费，至次我完成了大学最开始的希望，在一个大城市中生存下去，十分感激我的上司孙总愿意教一个什么都不懂的大学生，在海源，我不仅学会了前端，还有运维，布线，服务器部署，有幸参加了浙江台州的全国湾滩长大会，作为他们的现场支持技术人员，支持三维地图的前端建设。
+                </p>
+
+                <img src="img/s2.jpg" class="img-responsive center-block">
+              </div>
+
+            </li>
+            <li>
+
+              <time class="cbp_tmtime" datetime="2017-04-13 05:36"><span>2016/2/13</span> <span>05:36</span></time>
+
+              <div class="cbp_tmicon cbp_tmicon-mail"></div>
+
+              <div class="cbp_tmlabel">
+
+                <h2>小试牛刀开启自己的校园创业-自行车租赁</h2>
+
+                <p>
+                  自行车租赁，是我在学校里的小小创业，我有一个合伙人是我的室友，开始的原因有很多，重要的就是我希望学习投资如何有回报，沟通能力的提升，与朋友合伙做生意要不要踩坑。我们每人投入了8000元，店里什么事情都要管理，成了半个社会人，一年半后为我们一个人收入了12000元，但是周末时间都待在了车铺，实习前夕转让了店铺，人生的第一笔投资没有打水漂真是万幸，这余下的钱，也为我来杭州打下了物质基础；非常感激这一段经历让我更好的认识了自己，也为我跨出大学的门做了最重要的准备。
+                </p>
+                <img src="img/s1.jpg" class="img-responsive center-block">
+              </div>
+
+            </li>
+            <li>
+
+              <time class="cbp_tmtime" datetime="2016-07-18T12:04"><span>2015/7/18</span> <span>12:04</span></time>
+
+              <div class="cbp_tmicon cbp_tmicon-screen"></div>
+
+              <div class="cbp_tmlabel">
+
+                <h2>人生中重要的时刻参加会共教育的魔鬼训练</h2>
+
+                <p>
+                  会共教育在当时是南昌一家培养软实力的教育培训企业，机缘巧合下我自费参加了他们的暑期的魔鬼培训营，原因很简单，因为我深知自己缺少沟通，演说能力，这里能给我一段经历改变自己，成我想要的自己，在这28天的许多课程中，有我人生最重要的一段经历，生存挑战：10个人不带一分钱，3天去3个不同的城市。照片上就是我的团队，我是他们的临时队长，这里的故事可能一天都说不完，我们一起乞讨式的旅游去了九江，抚州，南昌，在这其中是无尽的辛酸，我是他们的队长，也是领导者，在这其中我并不是能力最强的，但也不是能力最差的，但是我还是平安的把他们都带回了了，秘诀就在与我自己领悟的一句话，请求比你强的人的帮助，帮助比你弱的人，因为我们是一个团队。感谢会共教育教会了我沟通，责任，担当，与爱。
+                </p>
+                <img src="img/s5.jpg" class="img-responsive center-block">
+              </div>
+
+            </li>
+
+
+
 
             <li>
 
@@ -739,98 +1004,11 @@
 
             </li>
 
-            <li>
-
-              <time class="cbp_tmtime" datetime="2016-07-18T12:04"><span>2015/7/18</span> <span>12:04</span></time>
-
-              <div class="cbp_tmicon cbp_tmicon-screen"></div>
-
-              <div class="cbp_tmlabel">
-
-                <h2>人生中重要的时刻参加会共教育的魔鬼训练</h2>
-
-                <p>
-                  会共教育在当时是南昌一家培养软实力的教育培训企业，机缘巧合下我自费参加了他们的暑期的魔鬼培训营，原因很简单，因为我深知自己缺少沟通，演说能力，这里能给我一段经历改变自己，成我想要的自己，在这28天的许多课程中，有我人生最重要的一段经历，生存挑战：10个人不带一分钱，3天去3个不同的城市。照片上就是我的团队，我是他们的临时队长，这里的故事可能一天都说不完，我们一起乞讨式的旅游去了九江，抚州，南昌，在这其中是无尽的辛酸，我是他们的队长，也是领导者，在这其中我并不是能力最强的，但也不是能力最差的，但是我还是平安的把他们都带回了了，秘诀就在与我自己领悟的一句话，请求比你强的人的帮助，帮助比你弱的人，因为我们是一个团队。感谢会共教育教会了我沟通，责任，担当，与爱。
-                </p>
-                <img src="img/s5.jpg" class="img-responsive center-block">
-              </div>
-
-            </li>
-
-            <li>
-
-              <time class="cbp_tmtime" datetime="2017-04-13 05:36"><span>2016/2/13</span> <span>05:36</span></time>
-
-              <div class="cbp_tmicon cbp_tmicon-mail"></div>
-
-              <div class="cbp_tmlabel">
-
-                <h2>小试牛刀开启自己的校园创业-自行车租赁</h2>
-
-                <p>
-                  自行车租赁，是我在学校里的小小创业，我有一个合伙人是我的室友，开始的原因有很多，重要的就是我希望学习投资如何有回报，沟通能力的提升，与朋友合伙做生意要不要踩坑。我们每人投入了8000元，店里什么事情都要管理，成了半个社会人，一年半后为我们一个人收入了12000元，但是周末时间都待在了车铺，实习前夕转让了店铺，人生的第一笔投资没有打水漂真是万幸，这余下的钱，也为我来杭州打下了物质基础；非常感激这一段经历让我更好的认识了自己，也为我跨出大学的门做了最重要的准备。
-                </p>
-                <img src="img/s1.jpg" class="img-responsive center-block">
-              </div>
-
-            </li>
-
-            <li>
-
-              <time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>2017/10/13</span> <span>13:15</span></time>
-
-              <div class="cbp_tmicon cbp_tmicon-phone"></div>
-
-              <div class="cbp_tmlabel">
-
-                <h2>开始实习,孤身一人来杭州，实现自己的初心</h2>
-
-                <p>
-                  第一次来杭州的西湖还是那么的美，这是我第一次来杭州，有别于其它人，大学的最后一个学期，没什么课。一周3节，让我能提前一学期来杭州实习，非常感激我的老师理解我，让我能提前走出校门去实习，我的第一家公司是浙江海源地理信息有限公司，职务是前端程序员，自行车铺的钱刚好够杭州租房的押金和第一个月的生活费，至次我完成了大学最开始的希望，在一个大城市中生存下去，十分感激我的上司孙总愿意教一个什么都不懂的大学生，在海源，我不仅学会了前端，还有运维，布线，服务器部署，有幸参加了浙江台州的全国湾滩长大会，作为他们的现场支持技术人员，支持三维地图的前端建设。
-                </p>
-
-                <img src="img/s2.jpg" class="img-responsive center-block">
-              </div>
-
-            </li>
-
-            <li>
-
-              <time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>2018/5/28</span> <span>9:30</span></time>
-
-              <div class="cbp_tmicon cbp_tmicon-earth"></div>
-
-              <div class="cbp_tmlabel">
-
-                <h2>毕业，那些曾经美好的青春祝福</h2>
-
-                <p>
-                  阳光明媚，这张是我用无人机航拍的照片，中间是我；我实现了我的大学规划，兑现了我的大学诺言，不忘初心，方得始终。很高兴我的大学没有什么遗憾，若非说有，可能就是没有去谈一场恋爱吧，太专注自己的学习，休闲时间少的可怜。但我不后悔，再见了我亲爱的同班同学，你们的学士帽还是一样的帅气，再见了我的大学，谢谢您教给我的一切，让我足与用一句话来概括：大学什么都不会教给你，唯有靠自己。谢谢您，感恩我的老师同学；让我学会了独立。
-                </p>
-
-                <img src="img/s4.jpg" class="img-responsive center-block">
-              </div>
-
-            </li>
-
-            <li>
-
-              <time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>2018/12/14</span> <span>12:11</span></time>
-
-              <div class="cbp_tmicon cbp_tmicon-screen"></div>
-
-              <div class="cbp_tmlabel">
-
-                <h2>认清方向，希望深入向前端发展</h2>
-
-                <p>
-                  2018ng-china大会现场的照片，这是angular的全球大会，在学习angular的过程中，官网偶然发现的，现场真是大牛云集啊，阿里的ng-zorro前端开发组；谷歌社区的angular的成员，台湾的鸟哥，第一次参加后，让我对前端未来发展的方向有了更深的理解未来的组件化，模块化的建站也有了了解。让我也坚定了朝着前端发展的道路，希望未来我能成为一个前端兼管理的技术骨干
-                </p>
-                <img src="img/s6.jpg" class="img-responsive center-block">
-              </div>
-
-            </li>
-
+      
+         
+      
+           
+        
             <!-- <li>
 
                     <time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>2019/4/13</span> <span>09:56</span></time>
